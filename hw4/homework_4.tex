@@ -13,6 +13,7 @@
 \usepackage{gensymb}
 \usepackage{multicol}
 \usepackage{listings}
+\usepackage{booktabs}
 
 
 \setlength{\marginparwidth}{2cm}
@@ -53,7 +54,7 @@
 		Using this, construct an $\alpha$-level confidence interval for $\tilde{\theta}$. State any relevant assumptions.
 	\end{enumerate}
 
-	Since we have transformed the random variable al
+	For the matched proportions odds ratio 
 
 	\section*{Case Studies}
 	For each of the following case studies, create a structured abstract no longer than 4 pages in length (including figures, tables, and references). The Background section is provided for each and should be included in your write-up. You must write the Methods, Results, and Conclusion sections. Code should be included in an appendix as well.
@@ -78,6 +79,8 @@ with(whz, table(stress, wheeze, sex))
 with(soc, table(mhPC, mhSC))
 	\end{lstlisting}
 
+	\end{enumerate}
+
 	
 
 	\newpage
@@ -95,8 +98,90 @@ with(soc, table(mhPC, mhSC))
 	\subsection*{Results}
 	Among the 258 pregnancies, 127 turned out to be male, while the remaining 131 were female. 212 of the mothers smoked, while 46 did not. 164 of the children were not atopic, while 94 of the children showed some form of atopy. Figure 1 shows the presence and absence of maternal elevated bedtime stress, childhood wheezing, sex, maternal smoking status, and child atopy status for all study participants. 
 
+	\begin{table}[h]
+		\centering
+		\footnotesize
+		\caption{Two-Way Tables Comparing Maternal Stress \& Wheezing in Children}
+		\begin{minipage}{0.48\linewidth}
+			\centering
+			\textbf{Male Children} \\[2pt]
+			\begin{tabular}{cccc} % Changed to cccc (no vertical bars)
+				\toprule
+				\textbf{Maternal Stress} & \textbf{No Wheezing} & \textbf{Wheezing} & \textbf{Total} \\
+				\midrule
+				Yes & 100 & 8 & 108 \\
+				No & 13 & 6 & 19 \\
+				\midrule
+				\textbf{Total} & 113 & 14 & 127 \\
+				\bottomrule
+			\end{tabular}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.48\linewidth}
+			\centering
+			\textbf{Female Children} \\[2pt]
+			\begin{tabular}{cccc} % Changed to cccc (no vertical bars)
+				\toprule
+				\textbf{Maternal Stress} & \textbf{No Wheezing} & \textbf{Wheezing} & \textbf{Total} \\
+				\midrule
+				Yes & 107 & 7 & 114 \\
+				No & 16 & 1 & 17 \\
+				\midrule
+				\textbf{Total} & 123 & 8 & 131 \\
+				\bottomrule
+			\end{tabular}
+		\end{minipage}
+	\end{table}
+	
+	
+	
+	\newpage
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.6\textwidth]{graphs/stackedBars_case1.png}
+		\caption{Proportions of Variables of Interest in Children in the Study \& Their Mothers}
+		\label{fig:histogram}
+	\end{figure}
+
+	In our study, we found that among male children, the odds of wheezing given mothers showed elevated bedtime stress were 5.77 times greater than if their mothers did not. For female children, the odds of a child wheezing if their mother had elevated bedtime stress were 0.96 times as likely as the odds if their mothers did not have elevated bedtime stress. We found that these odds between sexes were homogenous $(p = 0.134, \chi^2 = 2.243, df = 1)$. After adjustment for sex, we found that the odds of wheezing were significantly higher among children whose mothers had increased bedtime stress during pregnancy than those whose mothers did not show increased bedtime stress during pregnancy ($p = 0.0134$, OR = 3.31, 95\% CI = (1.240, 8.834), CMH $\chi^2 = 6.100)$.
 
 
+	The odds of wheezing in children whose mothers did not smoke during pregnancy and experienced elevated bedtime stress were 2.78 times greater than in children whose mothers did not experience stress and did not smoke. For children with mothers smoked during pregnancy, the odds of wheezing with mothers who experienced elevated bedtime stress were 10.39 times more than for mothers who did not experience bedtime stress. The Breslow-Day Test confirmed that these odds were homogenous $(p = 0.3395, \chi^2 = 0.9122, df = 1)$. When we adjusted for the confounding influence of maternal smoking, we found that the odds of wheezing were significantly higher among children whose mothers had increased bedtime stress during pregnancy than those whose mothers did not show increased bedtime stress during pregnancy ($p=0.0097$, OR = 3.38, 95\% CI = (1.298, 9.374), CMH $\chi^2 = 6.693)$.
+
+	\begin{table}[h]
+		\centering
+		\footnotesize
+		\caption{Two-Way Tables Comparing Maternal Stress \& Childhood Wheezing, Adjusted for Smoking Status}
+		\begin{minipage}{0.48\linewidth}
+			\centering
+			\textbf{Mother Smoked During Pregnancy} \\[2pt]
+			\begin{tabular}{cccc} % No vertical bars
+				\toprule
+				\textbf{Stress Level} & \textbf{No Wheezing} & \textbf{Wheezing} & \textbf{Total} \\
+				\midrule
+				No Stress & 171 & 14 & 185 \\
+				Stress & 22 & 5 & 27 \\
+				\midrule
+				\textbf{Total} & 193 & 19 & 212 \\
+				\bottomrule
+			\end{tabular}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.48\linewidth}
+			\centering
+			\textbf{Mother did not Smoke During Pregnancy} \\[2pt]
+			\begin{tabular}{cccc} % No vertical bars
+				\toprule
+				\textbf{Stress Level} & \textbf{No Wheezing} & \textbf{Wheezing} & \textbf{Total} \\
+				\midrule
+				No Stress & 36 & 1 & 37 \\
+				Stress & 7 & 2 & 9 \\
+				\midrule
+				\textbf{Total} & 43 & 3 & 46 \\
+				\bottomrule
+			\end{tabular}
+		\end{minipage}
+	\end{table}
 
 	\newpage
 	\subsection*{Background}
@@ -105,9 +190,6 @@ with(soc, table(mhPC, mhSC))
 	
 	Due to sparsity in two of outcomes (contact with the juvenile justice system and contact with developmental disability services), our study focuses on three agencies: the mental health system (MH), the education system (EDU), and child protective services (CPS). Specifically, we want to examine possible differences between contact with each of the agencies for primary care compared to specialty care. Each subject was seen first by a primary care physician and, later, by a specialty care physician. Specialty care was not made aware of the agencies primary care had recommended contact with. 
 	
-		
-	
-	\end{enumerate}
 		
 \end{document}
 
