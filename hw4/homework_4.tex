@@ -54,7 +54,32 @@
 		Using this, construct an $\alpha$-level confidence interval for $\tilde{\theta}$. State any relevant assumptions.
 	\end{enumerate}
 
-	For the matched proportions odds ratio 
+	The variance of the $\log(\tilde{\theta})$ transformation is given, but to use the delta method to estimate it, we had to assume that the rows were independent. For an odds ratio with a log-transformation, the confidence interval is given as:
+
+	$$e^{\tilde{\theta} \pm Z_{1 - \alpha/2} * \sqrt{Var(\log(\tilde{\theta})) }}.$$
+
+	When we substitute $\sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}}$ for the standard error of the odds ratio, we get 
+
+	$$e^{\tilde{\theta} \pm Z_{1 - \alpha/2} * \sqrt{Var(\log(\tilde{\theta})) }}.$$
+
+
+	
+
+
+	aaa.
+
+
+	When we plug in the given variance for matched proportion odds as well as $n_{21} / n_{12}$ for $\tilde{\theta}$, we get
+
+	$$e^{\frac{n_{21}}{n_{12}} \pm Z_{1 - \alpha/2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}}}$$
+
+	This means that the confidence interval is
+
+	$$\left(e^{\left(\frac{n_{21}}{n_{12}} - Z_{1 - \alpha/2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}} \right)} , 
+	e^{\left(\frac{n_{21}}{n_{12}} + Z_{1 - \alpha/2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}} \right)}\right). $$ 
+
+	In this confidence interval, we are working 
+
 
 	\section*{Case Studies}
 	For each of the following case studies, create a structured abstract no longer than 4 pages in length (including figures, tables, and references). The Background section is provided for each and should be included in your write-up. You must write the Methods, Results, and Conclusion sections. Code should be included in an appendix as well.
@@ -100,8 +125,9 @@ with(soc, table(mhPC, mhSC))
 
 	\begin{table}[h]
 		\centering
+		\captionsetup{labelformat=empty}
 		\footnotesize
-		\caption{Two-Way Tables Comparing Maternal Stress \& Wheezing in Children}
+		\caption{Tables 1 \& 2: Two-Way Tables Comparing Maternal Stress \& Wheezing in Children}
 		\begin{minipage}{0.48\linewidth}
 			\centering
 			\textbf{Male Children} \\[2pt]
