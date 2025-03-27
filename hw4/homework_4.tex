@@ -54,32 +54,23 @@
 		Using this, construct an $\alpha$-level confidence interval for $\tilde{\theta}$. State any relevant assumptions.
 	\end{enumerate}
 
-	The variance of the $\log(\tilde{\theta})$ transformation is given, but to use the delta method to estimate it, we had to assume that the rows were independent. For an odds ratio with a log-transformation, the confidence interval is given as:
+	The variance of the $\log(\tilde{\theta})$ transformation is given, but to use the delta method to estimate it, we had to assume that the rows were independent. For an odds ratio with a log-transformation, the confidence interval is given as
 
-	$$e^{\tilde{\theta} \pm Z_{1 - \alpha/2} * \sqrt{Var(\log(\tilde{\theta})) }}.$$
+	$$\log{\tilde{\theta} } \pm Z_{1 - \alpha/2} * \sqrt{Var(\log(\tilde{\theta})) }.$$
 
-	When we substitute $\sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}}$ for the standard error of the odds ratio, we get 
+	In order to observe this, we assume that $\log(\tilde{\theta})$ approaches a normal distribution via the central limit theorem. This means we need sufficently large $n$. When we exponentiate to undo the transformation, we get
 
-	$$e^{\tilde{\theta} \pm Z_{1 - \alpha/2} * \sqrt{Var(\log(\tilde{\theta})) }}.$$
+	$$e^{\log{\tilde{\theta} } \pm Z_{1 - \alpha/2} * \sqrt{Var(\log(\tilde{\theta})) }}.$$
 
+	Then we can substitute $\sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}}$ for the standard error of the odds ratio, leaving us with 
 
-	
+	$$e^{\left( \tilde{\theta} \pm Z_{1 - \alpha/2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}} \right)}.$$
 
+	When we write this out fully (using exponent rules to pull out the $\tilde{\theta}$) and substituting it for $\frac{n_{21}}{n_{12}}$, we get
 
-	aaa.
+	$$\left( \frac{n_{21}}{n_{12}} e^{\left( -Z_{1 - \alpha / 2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}} \right)}, \frac{n_{21}}{n_{12}} e^{\left(Z_{1 - \alpha / 2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}} \right)} \right) $$
 
-
-	When we plug in the given variance for matched proportion odds as well as $n_{21} / n_{12}$ for $\tilde{\theta}$, we get
-
-	$$e^{\frac{n_{21}}{n_{12}} \pm Z_{1 - \alpha/2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}}}$$
-
-	This means that the confidence interval is
-
-	$$\left(e^{\left(\frac{n_{21}}{n_{12}} - Z_{1 - \alpha/2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}} \right)} , 
-	e^{\left(\frac{n_{21}}{n_{12}} + Z_{1 - \alpha/2} * \sqrt{\frac{1}{n_{21}} + \frac{1}{n_{12}}} \right)}\right). $$ 
-
-	In this confidence interval, we are working 
-
+	This is our $\alpha$-level confidence interval for the odds ratio.
 
 	\section*{Case Studies}
 	For each of the following case studies, create a structured abstract no longer than 4 pages in length (including figures, tables, and references). The Background section is provided for each and should be included in your write-up. You must write the Methods, Results, and Conclusion sections. Code should be included in an appendix as well.
@@ -176,8 +167,9 @@ with(soc, table(mhPC, mhSC))
 
 	\begin{table}[h]
 		\centering
+		\captionsetup{labelformat=empty}
 		\footnotesize
-		\caption{Two-Way Tables Comparing Maternal Stress \& Childhood Wheezing, Adjusted for Smoking Status}
+		\caption{Tables 3 \& 4: Two-Way Tables Comparing Maternal Stress \& Childhood Wheezing, Adjusted for Smoking Status}
 		\begin{minipage}{0.48\linewidth}
 			\centering
 			\textbf{Mother Smoked During Pregnancy} \\[2pt]
@@ -209,12 +201,196 @@ with(soc, table(mhPC, mhSC))
 		\end{minipage}
 	\end{table}
 
+	For children without atopy, the odds of wheezing given mothers who experienced elevated bedtime stress were 3.750 times higher than for those with mothers who did not experience stress. In children with atopy, the odds of wheezing given mothers who experienced elevated bed time stress were  2.769 times greater than for those children with mothers who did not experience stress. We found that these odds between smoking statuses of mothers were homogenous $(p = 0.7638, \chi^2 = 0.0903, df = 1)$.  After adjustment for childrens atopy status, we found that the common odds of wheezing were significantly higher among children whose mothers had increased bedtime stress during pregnancy than those whose mothers did not show increased bedtime stress during pregnancy ($p=0.0131$, OR = 3.27, 95\% CI = (1.229, 8.721), CMH $\chi^2 = 6.1498$).
+
+	\begin{table}[h]
+		\centering
+		\captionsetup{labelformat=empty}
+		\footnotesize
+		\caption{Tables 5 \& 6: Two-Way Tables Comparing Maternal Stress \& Childhood Wheezing, Stratified by Atopy Status}
+		\begin{minipage}{0.48\linewidth}
+			\centering
+			\textbf{Children without Atopy} \\[2pt]
+			\begin{tabular}{cccc} % No vertical bars
+				\toprule
+				\textbf{Stress Level} & \textbf{No Wheezing} & \textbf{Wheezing} & \textbf{Total} \\
+				\midrule
+				No Stress & 135 & 9 & 144 \\
+				Stress & 16 & 4 & 20 \\
+				\midrule
+				\textbf{Total} & 151 & 13 & 164 \\
+				\bottomrule
+			\end{tabular}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.48\linewidth}
+			\centering
+			\textbf{Children with Atopy} \\[2pt]
+			\begin{tabular}{cccc} % No vertical bars
+				\toprule
+				\textbf{Stress Level} & \textbf{No Wheezing} & \textbf{Wheezing} & \textbf{Total} \\
+				\midrule
+				No Stress & 72 & 6 & 78 \\
+				Stress & 13 & 3 & 16 \\
+				\midrule
+				\textbf{Total} & 85 & 9 & 94 \\
+				\bottomrule
+			\end{tabular}
+		\end{minipage}
+	\end{table}
+
+	\subsection*{Discussion}
+	We observed a significant association between elevated bedtime stress of mothers during pregnancy and their children developing wheezing. This association held after adjusting for the interaction of various confounders— sex of the child, smoking status of the mothers during pregnancy, and even atopy in the children. These findings suggest that maternal stress is associated with childhood respiratory health as measured by childhood wheezing. These results are consistent with other findings, which suggest that maternal stress is associated with the development of wheezing and asthma (Van de Loo et. al., 2015).
+	
+	One limitation of this study was the locality, with all participants being from the Boston area. Follow-up research should seek to confirm these results with other regions. Additionally, it may be worth exploring other potential negative health outcomes related to maternal stress. Other studies have suggested that maternal stress has a negative impact on the resulting learning ability \& motor development of children, among many other unidentified outcomes (DiPietro, 2004). Clinical research should also seek to find ways to mitigate maternal stress.
+
+	\newpage
+	\subsection*{Appendix}
+
+	\begin{itemize}
+		\item DiPietro, J. A. (2004). The role of prenatal maternal stress in child development. \textit{Current Directions in Psychological Science}, \textit{13}(2), 71-74.
+		\item van de Loo, K. F., van Gelder, M. M., Roukema, J., Roeleveld, N., Merkus, P. J., \& Verhaak, C. M. (2015). Prenatal maternal psychological stress and childhood asthma and wheezing: a meta-analysis. \textit{European Respiratory Journal}, \textit{47}(1), 133-146.
+	\end{itemize}
+
+	\subsection*{R Code}
+	\begin{lstlisting}[
+		language=R, 
+		label={lst:condOR_analysis}, 
+		xleftmargin=\parindent,   % Align with paragraph indentation
+		linewidth=\textwidth,     % Ensure it fits within text width
+		frame=tb,                 % Optional: frame only top and bottom
+		breaklines=true           % Wrap long lines instead of cutting off
+	]
+	## 1 ##
+	library(DescTools)
+	library(epitools)
+	source('ORFun.R')
+	
+	whz <- read.table('whz.txt', header=TRUE, sep='')
+	
+	tab_sex <- with(whz, table(stress, wheeze, sex))
+	tab_smoke <- with(whz, table(stress, wheeze, smoker))
+	tab_atopy <- with(whz, table(stress, wheeze, atopy))
+	
+	condOR(tab_sex)     
+	condOR(tab_smoke)   
+	condOR(tab_atopy)
+	
+	BreslowDayTest(tab_sex)
+	BreslowDayTest(tab_smoke)
+	BreslowDayTest(tab_atopy)
+	
+	mantelhaen.test(tab_sex, correct = FALSE)
+	mantelhaen.test(tab_smoke, correct = FALSE)
+	mantelhaen.test(tab_atopy, correct = FALSE)
+	
+	## bar charts for case study 1
+	prop_ones <- colMeans(whz)  # 1s
+	prop_zeros <- 1 - prop_ones  # 0s
+	
+	prop_matrix <- rbind(prop_zeros, prop_ones)
+	
+	bar_positions <- barplot(prop_matrix, col = c('lightblue', 'lightpink'), 
+							 names.arg = names(whz), 
+							 main = '', 
+							 xlab = 'Proportion', 
+							 horiz = TRUE,  # horizontal chart
+							 xlim = c(0, 1))
+	
+	custom_labels <- c('No Wheezing', 
+					   'No Increased Bedtime Stress', 
+					   'Male', 
+					   'Non-smoking Mother',
+					   'Atopic Child') 
+	# labels are so people know what the blue and red mean
+	
+	text(y = bar_positions, x = prop_zeros / 2,
+		 labels = custom_labels, col = 'black', cex = 1.2, font = 2)
+	\end{lstlisting}
+
+
+
+
+
 	\newpage
 	\subsection*{Background}
-
 	Many children are treated for mental health disorders in primary care settings.  The system of care (SOC) provides a framework for collaboration among pediatric mental health providers, but it is unclear if youth treated for mental health disorders in primary care receive such coordination.  At the South Boston Community Health Center from 9/2012-8/2013 for 74 individuals $<$18 years, the odds of contact with SOC agencies (the mental health system, the education system, child protective services, the juvenile justice system and developmental disability services) were compared for mental health treatment in primary versus specialty care.  The odds of SOC contact within primary care compared to specialty care specifically for contact with mental health, education and child protective services were examined.  As care coordination may improve health outcomes, increased support and education for care coordination specific to youth treated for mental health disorders in primary care settings may be warranted.
 	
 	Due to sparsity in two of outcomes (contact with the juvenile justice system and contact with developmental disability services), our study focuses on three agencies: the mental health system (MH), the education system (EDU), and child protective services (CPS). Specifically, we want to examine possible differences between contact with each of the agencies for primary care compared to specialty care. Each subject was seen first by a primary care physician and, later, by a specialty care physician. Specialty care was not made aware of the agencies primary care had recommended contact with. 
+
+	\subsection*{Methods}
+	In this retrospective cohort study, we examined the diagnoses of 74 minors who visited the South Boston Community Health Center from July 2012 to August 2013. The subjects visited both a primary care physician as well as a specialty care physician. To avoid information bias \& misclassification, primary and specialty physicians were not made aware of the decisions made by the other. We were primarily interested in whether or not the physicians chose to contact the three relevant institutions: the Massachusetts Department of Mental Health (DMH), the child’s school or school district, and the Department of Children \& Families (DCF).
+
+	We compared the odds of contact with each of the three agencies among primary care and specialty care physicians using McNemar’s Test. Because there were a limited number of cases, we conducted a sensitivity analysis of findings using a Binomial Exact Test. All testing was done in R at the nominal level.
+
+	\subsection*{Results}
+
+
+	\begin{table}[h]
+		\centering
+		\footnotesize
+		\captionsetup{labelformat=empty}
+		\caption{Table 1. Comparison of Cases Where Primary \& Specialty Care Contacted Department of Mental Health}
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabular}{llccc}
+			\toprule
+			& & \multicolumn{2}{c}{\textbf{SC Contacts DMH}} & \\  
+			\cmidrule(lr){3-4}
+			& & \textbf{No} & \textbf{Yes} & \textbf{Total} \\  
+			\midrule
+			\multirow{2}{*}{\textbf{PC Contacts DMH}} & \textbf{No} & 46 & 12 & 58 \\  
+			& \textbf{Yes} & 4 & 12 & 16 \\  
+			\midrule
+			& \textbf{Total} & 50 & 24 & 74 \\  
+			\bottomrule
+		\end{tabular}
+		\label{tab:pc_sc_dmh}
+	\end{table}
+
+	\begin{table}[h]
+		\centering
+		\footnotesize
+		\captionsetup{labelformat=empty}
+		\caption{Table 2. Comparison of Cases Where Primary \& Specialty Care Contacted School System}
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabular}{llccc}
+			\toprule
+			& & \multicolumn{2}{c}{\textbf{SC Contacts School}} & \\  
+			\cmidrule(lr){3-4}
+			& & \textbf{No} & \textbf{Yes} & \textbf{Total} \\  
+			\midrule
+			\multirow{2}{*}{\textbf{PC Contacts School}} & \textbf{No} & 30 & 31 & 61 \\  
+			& \textbf{Yes} & 2 & 11 & 13 \\  
+			\midrule
+			& \textbf{Total} & 32 & 42 & 74 \\  
+			\bottomrule
+		\end{tabular}
+		\label{tab:pc_sc_school}
+	\end{table}
+
+	\begin{table}[h]
+		\centering
+		\footnotesize
+		\captionsetup{labelformat=empty}
+		\caption{Table 3. Comparison of Cases Where Primary \& Specialty Care Contacted Department of Children \& Families}
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabular}{llccc}
+			\toprule
+			& & \multicolumn{2}{c}{\textbf{SC Contacts DCF}} & \\  
+			\cmidrule(lr){3-4}
+			& & \textbf{No} & \textbf{Yes} & \textbf{Total} \\  
+			\midrule
+			\multirow{2}{*}{\textbf{PC Contacts DCF}} & \textbf{No} & 60 & 7 & 67 \\  
+			& \textbf{Yes} & 4 & 3 & 7 \\  
+			\midrule
+			& \textbf{Total} & 64 & 10 & 74 \\  
+			\bottomrule
+		\end{tabular}
+		\label{tab:pc_sc_dcf}
+	\end{table}
+
+
+
 	
 		
 \end{document}
