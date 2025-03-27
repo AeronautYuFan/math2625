@@ -15,7 +15,8 @@
 \usepackage{listings}
 \usepackage{booktabs}
 \usepackage{xurl}
-\usepackage{hpyerref}
+\usepackage{xcolor}
+\usepackage{hyperref}
 
 
 \setlength{\marginparwidth}{2cm}
@@ -321,10 +322,10 @@ with(soc, table(mhPC, mhSC))
 	Due to sparsity in two of outcomes (contact with the juvenile justice system and contact with developmental disability services), our study focuses on three agencies: the mental health system (MH), the education system (EDU), and child protective services (CPS). Specifically, we want to examine possible differences between contact with each of the agencies for primary care compared to specialty care. Each subject was seen first by a primary care physician and, later, by a specialty care physician. Specialty care was not made aware of the agencies primary care had recommended contact with. 
 
 	\subsection*{Methods}
-	In this study, we examined the diagnoses of 74 minors who visited the South Boston Community Health Center from July 2012 to August 2013. The subjects visited both a primary care physician as well as a specialty care physician. To avoid information bias \& misclassification, primary and specialty physicians were not made aware of the decisions made by the other. We were primarily interested in whether or not the physicians chose to contact the three relevant institutions: the Massachusetts Department of Mental Health (MH), the child’s school or school district, and CPS. Due to the small number of cases available, we compared the odds of contact with each of the three agencies among primary care and specialty care physicians and then examined whether or not the difference was significant using a binomial exact test. All testing was done in R at the nominal level.
+	In this study, we examined the diagnoses of 74 minors who visited the South Boston Community Health Center from July 2012 to August 2013. The subjects visited both a primary care physician as well as a specialty care physician. To avoid information bias \& misclassification, primary and specialty physicians were not made aware of the decisions made by the other. We were primarily interested in whether or not the physicians chose to contact the three relevant institutions: the Massachusetts Department of Mental Health (MH), the child’s school or school district, and CPS. Due to the small number of cases available, we compared the matched odds of contact with each of the three agencies among primary care and specialty care physicians and then examined whether or not the difference was significant using a binomial exact test. All testing was done in R at the nominal level.
 
 	\subsection*{Results}
-	In regards to mental health services, primary care physicians contacted the Department of Mental Health in 16 of the cases, while specialty care physicians contacted the MH in 24 of the 74 cases. We found discordance in 16 total cases, 4 where PC contacted the MH and SC did not, and 12 where PC did not contact the MH and SC did. While the odds of a PC physician contacting MH was 66.7\% lower the odds of a SC physician contacting MH (Matched OR = 0.333), we did not find this difference to be statistically significant ($p = 0.0768$, $\hat{p} = 0.25$, 95\% CI = (0.073, 0.524)).
+	In regards to mental health services, primary care physicians contacted the Department of Mental Health in 16 of the cases, while specialty care physicians contacted the MH in 24 of the 74 cases. We found discordance in 16 total cases, 4 where PC contacted the MH and SC did not, and 12 where PC did not contact the MH and SC did. While the odds of a PC physician contacting MH was 66.7\% lower the odds of a SC physician contacting MH (Matched OR = 0.333,  95\% CI = [0.108, 1.034]), we did not find this difference to be statistically significant ($p = 0.0768$, $\hat{p} = 0.25$, 95\% CI = (0.073, 0.524)).
 
 
 
@@ -350,7 +351,7 @@ with(soc, table(mhPC, mhSC))
 	\end{table}
 
 
-	Primary care physicians contacted school systems in only 13 of the 74 cases, while for specialty care physicians, this number was 42 cases. As shown in Table 2, we observed 31 cases where SC officials contacted school systems when PC did not, and only 2 cases where the opposite occurred— PC contacted schools and SC did not. We found that primary physicians were 93.5\% less likely than specialty physicians to contact education systems (Matched OR = 0.065). This result was statistically significant ($p < 0.0001, \hat{p} = 0.0606$, 95\% CI = (0.0074, 0.2023)), suggesting that primary physicians were less likely to reach out to schools than specialty physicians.
+	Primary care physicians contacted school systems in only 13 of the 74 cases, while for specialty care physicians, this number was 42 cases. As shown in Table 2, we observed 31 cases where SC officials contacted school systems when PC did not, and only 2 cases where the opposite occurred— PC contacted schools and SC did not. We found that primary physicians were 93.5\% less likely than specialty physicians to contact education systems (Matched OR = 0.065, 95\% CI = [0.015, 0.270]). This result was statistically significant ($p < 0.0001, \hat{p} = 0.0606$, 95\% CI = (0.0074, 0.2023)), suggesting that primary physicians were less likely to reach out to schools than specialty physicians.
 
 	\newpage
 	\begin{table}[h]
@@ -374,7 +375,7 @@ with(soc, table(mhPC, mhSC))
 		\label{tab:pc_sc_edu}
 	\end{table}
 
-	Primary care physicians contacted child protective services in 7 of the 74 cases, while specialty care physicians contacted CPS in 10 cases. In 7 cases, SC contacted CPS where PC did not, while in 4 cases, SC did not contact CPS and PC did. The odds of a primary care physician contacting CPS were 42.9\% lower than the odds of a specialty care physician doing the same (Matched OR = 0.571). However, we found that this observed difference was not statistically significant ($p = 0.5488, \hat{p} = 0.3636$, 95\% CI = (0.1092, 0.6920)).
+	Primary care physicians contacted child protective services in 7 of the 74 cases, while specialty care physicians contacted CPS in 10 cases. In 7 cases, SC contacted CPS where PC did not, while in 4 cases, SC did not contact CPS and PC did. The odds of a primary care physician contacting CPS were 42.9\% lower than the odds of a specialty care physician doing the same (Matched OR = 0.571,  95\% CI = [0.167, 1.952]). However, we found that this observed difference was not statistically significant ($p = 0.5488, \hat{p} = 0.3636$, 95\% CI = (0.1092, 0.6920)).
 
 	\begin{table}[h]
 		\centering
@@ -404,14 +405,102 @@ with(soc, table(mhPC, mhSC))
 
 	\newpage
 	\subsection*{Appendix}
-	\begin{lstlisting}
-		Donohoe, M. T. (1998). Comparing generalist and specialty care: discrepancies, deficiencies, and excesses. Archives of Internal Medicine, 158(15), 1596-1608.
+	\begin{itemize}
+		\item Donohoe, M. T. (1998). Comparing generalist and specialty care: discrepancies, deficiencies, and excesses. \textit{Archives of Internal Medicine}, 158(15), 1596--1608.
 		
-		Porras-Javier, L., Bromley, E., Lopez, M. et al. (2018). Challenges to Effective Primary Care-Specialty Communication and Coordination in the Mental Health Referral and Care Process for Publicly Insured Children. J Behav Health Serv Res, 45, 668–677. 
-		\end{lstlisting}
-		
-		\noindent\url{https://doi.org/10.1007/s11414-018-9585-z}
-		
+		\item Porras-Javier, L., Bromley, E., Lopez, M., et al. (2018). Challenges to Effective Primary Care-Specialty Communication and Coordination in the Mental Health Referral and Care Process for Publicly Insured Children. \textit{J Behav Health Serv Res}, 45, 668--677. \url{https://doi.org/10.1007/s11414-018-9585-z}
+	\end{itemize}
+
+	\subsection*{R Code}
+	\begin{lstlisting}[
+		language=R, 
+		label={lst:matchedOR_analysis}, 
+		xleftmargin=\parindent,   % Align with paragraph indentation
+		linewidth=\textwidth,     % Ensure it fits within text width
+		frame=tb,                 % Optional: frame only top and bottom
+		breaklines=true           % Wrap long lines instead of cutting off
+	]
+	## 2 ##
+	library(DescTools)
+	library(epitools)
+	source('ORFun.R')
+	
+	soc <- read.table('soc.txt', header=TRUE)
+	
+	### mh ###
+	tab_mh <- with(soc, table(mhPC, mhSC))
+	n21     <- 4
+	n12     <- 12
+	theta   <- n21/n12
+	
+	oddsratio.matched(n21, n12)
+	binom.test(n21, n21 + n12, p = 0.5)
+	
+	
+	### edu ###
+	tab_edu <- with(soc, table(eduPC, eduSC))
+	
+	n21     <- 2
+	n12     <- 31
+	theta   <- n21/n12
+	
+	oddsratio.matched(n21, n12)
+	binom.test(n21, n21 + n12, p = 0.5)
+	
+	
+	### cps ###
+	
+	tab_cps <- with(soc, table(cpsPC, cspSC))
+	
+	n21     <- 4
+	n12     <- 7
+	theta   <- n21/n12
+	
+	oddsratio.matched(n21, n12)
+	binom.test(n21, n21 + n12, p = 0.5)
+	
+	
+	
+	### matched odds ratio method
+	### run this before case study 2
+	### couldn't find an OR method in epi tools for matched
+	### so resorted to this
+	oddsratio.matched <- function(n21, n12, conf_level = 0.95) {
+	  or_value <- n21 / n12
+	  
+	  # standard error for CI
+	  se_log_or <- sqrt(1/n21 + 1/n12)
+	  
+	  # z score for CI
+	  z_score <- qnorm(1 - (1 - conf_level) / 2)
+	  
+	  log_or <- log(or_value)
+	  lower_log_or <- log_or - z_score * se_log_or
+	  upper_log_or <- log_or + z_score * se_log_or
+	  
+	  # untransform ci
+	  lower_or <- exp(lower_log_or)
+	  upper_or <- exp(upper_log_or)
+	  
+	  # code for printing
+	  or_value <- round(or_value, 7)
+	  lower_or <- round(lower_or, 7)
+	  upper_or <- round(upper_or, 7)
+	  
+	  output_text <- paste(
+		'Matched-pairs odds ratio (', 
+		conf_level * 100, '% confidence interval)\n', 
+		'OR: ', or_value, '\n', 
+		'Lower    Upper\n', 
+		lower_or, '    ', upper_or,
+		sep = ''
+	  )
+	  
+	  # print
+	  cat(output_text)
+	}
+	\end{lstlisting}
+	
 
 
 
