@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1743118848.06369 "c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw4/homework_4.tex" "homework_4.pdf" "homework_4" 1743118849.71396 0
+["pdflatex"] 1743118969.24292 "c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw4/homework_4.tex" "homework_4.pdf" "homework_4" 1743118970.87749 0
   "C:/Users/Aeron/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743103692 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Aeron/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk" 1739507396 12124 4daad602b0c1007f5ec603fb0dc4ab93 ""
   "C:/Users/Aeron/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1738080351 11548 ee21eb8b52d44953254a279800e0892b ""
@@ -127,11 +127,11 @@
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw4/homework_4.tex" 1743118845 29387 40a7d5f42edc3d26160d3cd59201777f ""
+  "c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw4/homework_4.tex" 1743118967 29387 e748c3b1be60fd86b8108be0f223761a ""
   "graphs/stackedBars_case1.png" 1742750321 22321 9ef503725aa0f41c2d1bd3deecfe4f2f ""
-  "homework_4.aux" 1743118849 2391 07163fb80615b8ee770111b6ed5b5cf1 "pdflatex"
-  "homework_4.out" 1743118849 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "homework_4.tex" 1743118845 29387 40a7d5f42edc3d26160d3cd59201777f ""
+  "homework_4.aux" 1743118970 2391 07163fb80615b8ee770111b6ed5b5cf1 "pdflatex"
+  "homework_4.out" 1743118970 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "homework_4.tex" 1743118967 29387 e748c3b1be60fd86b8108be0f223761a ""
   (generated)
   "homework_4.aux"
   "homework_4.log"
