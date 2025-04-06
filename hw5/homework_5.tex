@@ -1,0 +1,88 @@
+\documentclass{article}
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx,float}
+\usepackage{multirow,setspace}
+\usepackage{natbib,enumerate}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{termcal} 
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{gensymb}
+\usepackage{multicol}
+\usepackage{listings}
+
+
+\setlength{\marginparwidth}{2cm}
+
+\renewcommand{\thesection}{\Alph{section}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\tab}{\hspace{0.5cm}}
+\newcommand{\modref}[1]{(\ref{#1})}
+
+\newcommand{\bbeta}{{\mbox{\boldmath$\beta$}}}
+\newcommand{\bmu}{{\mbox{\boldmath$\mu$}}}
+\newcommand{\balpha}{{\mbox{\boldmath$\alpha$}}}
+\newcommand{\btheta}{{\mbox{\boldmath$\theta$}}}
+\newcommand{\bpi}{{\mbox{\boldmath$\pi$}}}
+\newcommand{\R}{\texttt{R}}
+\newcommand{\Lik}{\mathcal{L}}
+
+\begin{document}
+
+%%% HEADER %%%
+	\begin{center}
+		\HRule \\[0.1cm]
+		\vspace{0.1cm}
+		{ \LARGE \bfseries MATH 2625: Biostatistical Methods\\[0.5cm] Homework 5, due Thursday, April 10 } \\[0.1cm]
+		\HRule \\[0.1cm]
+	\end{center}
+	
+		Please submit a PDF or .doc version of your homework to Canvas by 3:30pm on the due date. Please type \emph{all} responses. You are encouraged to use \R\ for all calculations.
+		
+	\section*{Theory}
+	\begin{enumerate}
+		\item Find the estimated parametric survivor, hazard, and cumulative hazard functions for each of the following distributions. Because these distributions require root finding algorithms to find the MLE for some of their parameters, we will fix those parameters at the values specified below. Please show all of your work.
+		\begin{enumerate}
+			\item $T_i \sim Pa(\mu, \alpha)$ for $i = 1, \ldots, n$, $\mu = T_{(1)}$ (i.e. the minimum survival time), and $\alpha$ unknown.
+			\item $T_i \sim W(\lambda, \gamma)$  for $i = 1, \ldots, n$, $\gamma = 2$, and $\lambda$ unknown.
+		\end{enumerate}
+	\end{enumerate}
+
+	\section*{Case Studies}
+	For each of the following case studies, create a structured abstract no longer than 4 pages in length (including figures, tables, and references). The Background section is provided for each and should be included in your write-up. You must write the Methods, Results, and Conclusion sections. Code should be included in an appendix as well.
+
+	\begin{enumerate}
+		\item The first Case Study looks at bladder cancer, both its recurrence and death due to bladder cancer. The data can be found in the file \texttt{bladder.txt}. Variables include subject's \texttt{id}, \texttt{time} (to recurrence, death, or censored in months), first recurrence status (\texttt{status1}, coded 1 for first recurrence, 0 for censored or dead), death status (\texttt{status2}, coded 1 for dead, 0 for censored or first recurrence), \texttt{treatment} (code \texttt{placebo}, \texttt{pyridoxine}, and \texttt{thiotepa}), the \texttt{number} of initial \texttt{number} tumors (coded \texttt{One}, \texttt{Two or Three}, and \texttt{Four or More}), and the \texttt{size} of the largest tumor (coded \texttt{1cm}, \texttt{2cm to 3cm}, and \texttt{4cm or Larger}).
+			
+	\subsection*{Background}
+
+	Bladder cancer is a common type of cancer, typically beginning in the urothelial cells of the bladder. The cancer is often caught in the early stages and is easily treatable. However, even early-stage surgical interventions may not prevent recurrence. To evaluate the effectiveness of post-surgical treatments, we conducted a three arm study comparing the effects of treatment with pyridoxine, thiotepa, or placebo on the primary end point of recurrence. We also consider the secondary end point of death. The size of the initial tumor or the number of initial tumors may also impact both study endpoints. We enrolled 118 patients with confirmed bladder cancer whose tumors were surgically removed and followed them until recurrence, death, or both.
+		
+		\item The second Case Study examines the time to first and second recurrence of chronic granulomatous disease or CGD. As only a subset of the patients had the second recurrence, there are two datasets for this study: \texttt{cgd1.txt} (first recurrence data) and \texttt{cgd2.txt} (second recurrence data). The variables in both datasets have the same names. Variables include subejct's \texttt{id}, the \texttt{time} to recurrence of infection in days, \texttt{status} (1 for recurrence, 0 for censored), \texttt{treatment} (coded \texttt{rIFN-g} for gamma r-interferon, \texttt{placebo}), pattern of inheritance (\texttt{inherit}, coded \texttt{autosomal} or \texttt{X-linked}), and use of prophylactic antibiotics at study entry (\texttt{propylac}, coded 1 for yes, 0 for no).
+
+	\subsection*{Background}
+
+	Chronic granulomatous disease or CGD is a genetic disorder in which white blood cells called phagocytes are unable to kill certain types of bacteria and fungi. Consequently, patients suffering from CGD are subject to frequent and potentially life-threatening infections. CGD impacts the effectiveness of phagocytes, a type of white blood cell, that makes patients more susceptible to bacterial and fungal infections. We conducted a placebo controlled trial of a cytokine-based treatment using interferon gamma to examine its effect on recurrence of CGD. The primary endpoint of the study was the first recurrence of a bacterial or fungal infection and the secondary endpoint was the second recurrence of infection. The pattern of inheritance and use of antibiotics may impact recurrence as well. In total, 128 patients were available for analysis of the primary endpoint while only 44 patients were available for the secondary endpoint.
+
+		
+	
+	\end{enumerate}
+		
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
