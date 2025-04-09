@@ -1,7 +1,7 @@
 \documentclass{article}
 
 \usepackage[margin=0.75in]{geometry}
-\usepackage{amsmath,amssymb}
+\usepackage{amsmath,amsthm,amssymb}
 \usepackage{graphicx,float}
 \usepackage{multirow,setspace}
 \usepackage{natbib,enumerate}
@@ -51,13 +51,40 @@
 		\end{enumerate}
 	\end{enumerate}
 
+	\begin{proof}
+	The pdf of $T_i \sim Pa(\mu, \alpha)$ is defined as
+
+	\[ f(t) = \frac{\alpha\mu^\alpha}{t^{\alpha + 1}}.\]
+
+	We can integrate $f(t)$ to find the cdf, $F(t)$.
+
+	\begin{align*}
+		F(t) = \int f(t)dt & = \int\frac{\alpha\mu^\alpha}{t^{\alpha + 1}} dt \\
+		& = \alpha\mu^\alpha \left( \frac{1}{\alpha t^{-\alpha}} \right) \\
+		& = \left( \frac{\mu}{t}^\alpha \right).
+	\end{align*}
+
+	Then our survival function $S(t)$ is defined as
+
+	\[S(t) = 1 - \left( \frac{\mu}{t}^\alpha \right).\]
+
+	The hazard function $h(t)$ of the Pareto distribution is then
+	
+	\[h(t) = \frac  \]
+
+	
+
+
+	\end{proof}
+
+	\newpage
 	\section*{Case Studies}
 	For each of the following case studies, create a structured abstract no longer than 4 pages in length (including figures, tables, and references). The Background section is provided for each and should be included in your write-up. You must write the Methods, Results, and Conclusion sections. Code should be included in an appendix as well.
 
 	\begin{enumerate}
 		\item The first Case Study looks at bladder cancer, both its recurrence and death due to bladder cancer. The data can be found in the file \texttt{bladder.txt}. Variables include subject's \texttt{id}, \texttt{time} (to recurrence, death, or censored in months), first recurrence status (\texttt{status1}, coded 1 for first recurrence, 0 for censored or dead), death status (\texttt{status2}, coded 1 for dead, 0 for censored or first recurrence), \texttt{treatment} (code \texttt{placebo}, \texttt{pyridoxine}, and \texttt{thiotepa}), the \texttt{number} of initial \texttt{number} tumors (coded \texttt{One}, \texttt{Two or Three}, and \texttt{Four or More}), and the \texttt{size} of the largest tumor (coded \texttt{1cm}, \texttt{2cm to 3cm}, and \texttt{4cm or Larger}).
 			
-	\subsection*{Background}
+	\subsection*{Background} % move these around to fix indent
 
 	Bladder cancer is a common type of cancer, typically beginning in the urothelial cells of the bladder. The cancer is often caught in the early stages and is easily treatable. However, even early-stage surgical interventions may not prevent recurrence. To evaluate the effectiveness of post-surgical treatments, we conducted a three arm study comparing the effects of treatment with pyridoxine, thiotepa, or placebo on the primary end point of recurrence. We also consider the secondary end point of death. The size of the initial tumor or the number of initial tumors may also impact both study endpoints. We enrolled 118 patients with confirmed bladder cancer whose tumors were surgically removed and followed them until recurrence, death, or both.
 		

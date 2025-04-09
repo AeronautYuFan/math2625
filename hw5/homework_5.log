@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  6 APR 2025 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  9 APR 2025 09:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -109,6 +109,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks29
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -136,27 +147,27 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count283
-\float@exts=\toks24
+\float@exts=\toks30
 \float@box=\box54
-\@float@everytoks=\toks25
+\@float@everytoks=\toks31
 \@floatcapt=\box55
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip54
+\multirow@colwidth=\skip57
 \multirow@cntb=\count284
-\multirow@dima=\skip55
+\multirow@dima=\skip58
 \bigstrutjot=\dimen161
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip56
-\bibsep=\skip57
+\bibhang=\skip59
+\bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count285
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
-\@enLab=\toks26
+\@enLab=\toks32
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
@@ -184,10 +195,10 @@ Package caption Info: New subtype `subtable' on input line 238.
 Package: termcal 1997/01/11 1.8 Latex2e package to print a Term calendar
  (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
-\LTleft=\skip58
-\LTright=\skip59
-\LTpre=\skip60
-\LTpost=\skip61
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
 \LTchunksize=\count290
 \LTcapwidth=\dimen170
 \LT@head=\box56
@@ -199,21 +210,21 @@ Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
 \LT@rows=\count292
 \c@LT@tables=\count293
 \c@LT@chunks=\count294
-\LT@p@ftn=\toks27
+\LT@p@ftn=\toks33
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\calboxdepth=\skip62
-\calwidth=\skip63
-\ca@boxwidth=\skip64
+\calboxdepth=\skip65
+\calwidth=\skip66
+\ca@boxwidth=\skip67
 \c@ca@dpw=\count295
 \c@ca@numwks=\count296
 \c@ca@wknum=\count297
-\ca@doaweek=\toks28
-\ca@doweeks=\toks29
-\ca@colhead=\toks30
+\ca@doaweek=\toks34
+\ca@doweeks=\toks35
+\ca@colhead=\toks36
 \c@classnum=\count298
-\weeklytext=\toks31
+\weeklytext=\toks37
 \c@textdaycount=\count299
 \c@date=\count300
 \c@month=\count301
@@ -236,9 +247,9 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip65
+\labelindent=\skip68
 \enit@outerparindent=\dimen171
-\enit@toks=\toks32
+\enit@toks=\toks38
 \enit@inbox=\box61
 \enit@count@id=\count303
 \enitdp@description=\count304
@@ -258,8 +269,8 @@ Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
 \page@free=\dimen174
 \premulticols=\dimen175
 \postmulticols=\dimen176
-\multicolsep=\skip66
-\multicolbaselineskip=\skip67
+\multicolsep=\skip69
+\multicolbaselineskip=\skip70
 \partial@page=\box63
 \last@line=\box64
 \mc@boxedresult=\box65
@@ -316,7 +327,7 @@ Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count315
 \lst@gtempboxa=\box108
-\lst@token=\toks33
+\lst@token=\toks39
 \lst@length=\count316
 \lst@currlwidth=\dimen181
 \lst@column=\count317
@@ -341,7 +352,8 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count323
 \l__pdf_internal_box=\box110
-) (homework_5.aux)
+)
+No file homework_5.aux.
 \openout1 = `homework_5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -358,7 +370,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -400,12 +411,12 @@ LaTeX Font Info:    ... okay on input line 33.
 \scratchbox=\box111
 \nofMPsegments=\count325
 \nofMParguments=\count326
-\everyMPshowfont=\toks34
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count327
 \MPscratchDim=\dimen186
 \MPnumerator=\count328
 \makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks35
+\everyMPtoPDFconversion=\toks41
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -439,6 +450,73 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
  (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex:74: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.74 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex:74: Missing } inserted.
+<inserted text> 
+                }
+l.74 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex:74: Missing $ inserted.
+<inserted text> 
+                $
+l.74 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex:74: Missing $ inserted.
+<inserted text> 
+                $
+l.74 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex:74: Too many }'s.
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.74 
+     
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex:78: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 	\end{proof}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex:78: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.78 	\end{proof}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+
 
 [1
 
@@ -451,17 +529,17 @@ L3 programming layer <2024-10-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7779 strings out of 473897
- 122673 string characters out of 5726461
- 527872 words of memory out of 5000000
- 30574 multiletter control sequences out of 15000+600000
+ 7863 strings out of 473897
+ 123933 string characters out of 5726461
+ 526137 words of memory out of 5000000
+ 30656 multiletter control sequences out of 15000+600000
  562098 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,1032b,308s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on homework_5.pdf (2 pages, 105562 bytes).
+ 57i,10n,65p,1032b,308s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on homework_5.pdf (2 pages, 128106 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
