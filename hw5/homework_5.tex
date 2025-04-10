@@ -115,14 +115,17 @@
 	\subsection*{Methods}
 	118 patients with bladder cancer whose tumors were removed via surgery were selected for this randomized controlled trial. The subjects were randomly given one of three treatments: pyridoxine, thiotepa, or a placebo. We followed patients after their treatment to determine whether patients had a recurrence of bladder cancer. We also examined whether or not the patients died. While there was a possibility of patients developing both outcomes of interest, we only observed the outcome that came first. The subject was subsequently considered censored for the other outcome.
 
+	We used Kaplan-Meier estimation to estimate the survival functions of recurrence of cancer as well as death for each of the three treatment groups. Estimates of the median time to tumor recurrence and death were also found when available. We used a Gehan-Breslow-Wilcoxon Test to determine whether there was a significant difference in the survival curves for both outcomes over time in subjects with each of the different treatments. We also used Kaplan-Meier estimation to conduct secondary analyses on the interaction on the time to cancer recurrence of two potential confounders: size of a subject’s initial tumor and the number of initial tumors in a subject. All analyses were done at the nominal level.
+
 	\subsection*{Results}
 	Among the 118 patients who were selected for the study, 32 received pyridoxine, 38 received thiotepa, and the remaining 48 formed the placebo control group. 17 of the subjects died under study observation, and 62 had a recurrence of bladder cancer. We observed the longest median time to cancer recurrence in patients receiving pyridoxine of 42 months. We did not observe a median survival time for patients receiving pyridoxine or the placebo, as the death counts in these two treatment arms were very low. However, with censored subjects taken into account, we estimated a median survival time for patients receiving thiotepa to be 59 months.
 
+	% TABLE ONE
 	\begin{table}[ht]
 		\centering
 		\footnotesize
 		\caption*{\textbf{Table 1. Time to Cancer Recurrence \& Death of Patients by Treatment Group}}
-		\begin{tabular}{@{}c c | c c | c c@{}}
+		\begin{tabular}{@{}l l | l l | l l @{}}
 			\toprule
 			Treatment & \parbox[t]{2cm}{Number of\\ Patients} & \parbox[t]{2.5cm}{Observed\\ Recurrences} & \parbox[t]{3cm}{Median Time to\\ Recurrence (months)} & \parbox[t]{2.5cm}{Observed\\ Deaths} & \parbox[t]{3cm}{Median Time to\\ Death (months)} \\
 			\midrule
@@ -135,15 +138,127 @@
 		\end{tabular}
 	\end{table}
 
+	\begin{figure}[htbp]
+		\centering
+		\captionsetup{labelformat = empty}
+		\begin{subfigure}[t]{0.32\textwidth}
+			\includegraphics[width=\linewidth]{graphs/case1/recurrance~treatment_pyridoxine.png}
+			\caption*{\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000\sloppy 
+			\textbf{Figure 1.} Time to Recurrence in Subjects Treated With Pyridoxine}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{0.32\textwidth}
+			\includegraphics[width=\linewidth]{graphs/case1/recurrance~treatment_thiotepa.png}
+			\caption*{\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000\sloppy 
+			\textbf{Figure 2.} Time to Recurrence in Subjects Treated With Thiotepa}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{0.32\textwidth}
+			\includegraphics[width=\linewidth]{graphs/case1/recurrance~treatment_placebo.png}
+			\caption*{\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000\sloppy 
+			\textbf{Figure 3.} Time to Recurrence in Control Group}
+		\end{subfigure}
+		\caption{Figures 1-3: Kaplan-Meier Estimates of Time to Bladder Cancer Recurrence for Each Treatment Group}
+		\label{recur~treat_groups}
+	  \end{figure} 
+	  % Manually advance counter since we just "used" 3 figures
+	  \addtocounter{figure}{2}
+	  %%%%%%%%%%%%%%%%%%%%%%5
+
+	% FIGURE FOUR: KAPLAN MEIER GRAPHS FOR ALL 3 TREATMENTS
 	\begin{figure}[h!]
 		\centering
 		\tiny
 		  \centering
 		  \tiny
-		  \includegraphics[width=0.9\textwidth]{graphs/case1/recurrance~treatment_all.png}
+		  \includegraphics[width=0.6\textwidth]{graphs/case1/recurrance~treatment_all.png}
 		  \caption{Kaplan-Meier Estimate of Time to Recurrence in Subjects by Treatment}
 		  \label{recur~treat_all}
 	\end{figure}
+
+	  We did not find a statistically significant difference in recurrence rates over time between the three treatment groups $(p = 0.5, \chi^2 = 1.3$, df = 2). Figure 1 shows the Kaplan-Meier estimation of recurrence rates over time. We also did not find a significant difference in survival rates between the three treatment groups $(p = 0.8, \chi^2 = 0.5$, df = 2). Figure 5 shows Kaplan-Meier estimates of patient survival rates over time.
+
+	  \begin{figure}[h!]
+		\centering
+		\tiny
+		  \centering
+		  \tiny
+		  \includegraphics[width=0.6\textwidth]{graphs/case1/recurrance~death.png}
+		  \caption{Kaplan-Meier Estimate of Survival Time in Subjects by Treatment}
+		  \label{death~treat}
+	\end{figure}
+
+	\begin{table}[H]
+		\centering
+		\footnotesize
+		\caption{\textbf{Time to Cancer Recurrence in Patients by Initial Number of Tumors}}
+		\begin{tabular}{cccc}
+			\toprule
+			\multicolumn{1}{c}{Initial Number} & 
+			\multicolumn{1}{c}{Number of} & 
+			\multicolumn{1}{c}{Observed} & 
+			\multicolumn{1}{c}{Median Time to} \\
+			\multicolumn{1}{c}{of Tumors} & 
+			\multicolumn{1}{c}{Patients} & 
+			\multicolumn{1}{c}{Recurrences} & 
+			\multicolumn{1}{c}{Recurrence (months)} \\
+			\midrule
+			One            & 72  & 30 & 42 \\
+			Two to Three   & 27  & 17 & 24 \\
+			Four or More   & 19  & 15 & 5  \\
+			\midrule
+			Total          & 118 & 62 &  \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\centering
+		\footnotesize
+		\caption{\textbf{Time to Cancer Recurrence in Patients by Initial Size of Tumors}}
+		\begin{tabular}{cccc}
+			\toprule
+			\multicolumn{1}{c}{Initial Size} & 
+			\multicolumn{1}{c}{Number of} & 
+			\multicolumn{1}{c}{Observed} & 
+			\multicolumn{1}{c}{Median Time to} \\
+			\multicolumn{1}{c}{of Tumors} & 
+			\multicolumn{1}{c}{Patients} & 
+			\multicolumn{1}{c}{Recurrences} & 
+			\multicolumn{1}{c}{Recurrence (months)} \\
+			\midrule
+			1cm             & 69  & 38 & 22 \\
+			2cm to 3cm      & 33  & 13 & N/A \\
+			4cm or Larger   & 16  & 11 & 6  \\
+			\midrule
+			Total           & 118 & 62 &    \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+
+	%%%%%%%%%%%%%%% FIGURES FOR TUMOR SIZE AND COUNT
+	\begin{figure}[htbp]
+		\centering
+		\captionsetup{labelformat = empty}
+		\begin{subfigure}[t]{0.48\textwidth}
+		  \includegraphics[width=\linewidth]{graphs/case1/recurrance~tumor_count.png}
+		  \caption{Caption for the first image}
+		  \label{surv-tumor-count}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{0.48\textwidth}
+		  \includegraphics[width=\linewidth]{graphs/case1/recurrance~tumor_size.png}
+		  \caption{Caption for the second image}
+		  \label{surv-tumor-size}
+		\end{subfigure}
+		\caption{Figures 6-7: Kaplan-Meier Estimates of Time to Bladder Cancer by Number \& Size of Initial Tumors}
+		\label{fig-confounders}
+	  \end{figure}
+	  \addtocounter{figure}{2}
+
+	While 72 of the 118 subjects only had one prior tumor present, 19 had at least four tumors. Additionally, most tumors were within 1cm in size, while only 16 patients had tumors larger than 4cm in size. Tables 2 and 3 provide a more detailed break-down of the findings. There was a statistically significant difference in time to recurrence of cancer based on the initial number of tumors in a subject $(p < 0.001, \chi^2 = 13.9$, df = 2). We found that the time to the recurrence of cancer in a subject was lowest if the subject only had one tumor removed at the start of the study, as shown in Figure 6. However, we did not find evidence to suggest that the size of a subject’s initial tumor had an impact on the time to the recurrence of cancer $(p = 0.2, \chi^2 = 3.7$, df = 2).
+
 
 	\subsection*{Discussion}
 		

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  10 APR 2025 00:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  10 APR 2025 15:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -475,37 +475,71 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/Aeron/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
-<graphs/case1/recurrance~treatment_all.png, id=19, 548.71666pt x 421.575pt>
+<graphs/case1/recurrance~treatment_pyridoxine.png, id=19, 630.355pt x 421.575pt>
+File: graphs/case1/recurrance~treatment_pyridoxine.png Graphic file (type png)
+<use graphs/case1/recurrance~treatment_pyridoxine.png>
+Package pdftex.def Info: graphs/case1/recurrance~treatment_pyridoxine.png  used on input line 145.
+(pdftex.def)             Requested size: 161.8885pt x 108.2689pt.
+<graphs/case1/recurrance~treatment_thiotepa.png, id=20, 630.355pt x 421.575pt>
+File: graphs/case1/recurrance~treatment_thiotepa.png Graphic file (type png)
+<use graphs/case1/recurrance~treatment_thiotepa.png>
+Package pdftex.def Info: graphs/case1/recurrance~treatment_thiotepa.png  used on input line 151.
+(pdftex.def)             Requested size: 161.8885pt x 108.2689pt.
+<graphs/case1/recurrance~treatment_placebo.png, id=21, 630.355pt x 421.575pt>
+File: graphs/case1/recurrance~treatment_placebo.png Graphic file (type png)
+<use graphs/case1/recurrance~treatment_placebo.png>
+Package pdftex.def Info: graphs/case1/recurrance~treatment_placebo.png  used on input line 157.
+(pdftex.def)             Requested size: 161.8885pt x 108.2689pt.
+<graphs/case1/recurrance~treatment_all.png, id=22, 548.71666pt x 421.575pt>
 File: graphs/case1/recurrance~treatment_all.png Graphic file (type png)
 <use graphs/case1/recurrance~treatment_all.png>
-Package pdftex.def Info: graphs/case1/recurrance~treatment_all.png  used on input line 143.
-(pdftex.def)             Requested size: 455.2979pt x 349.8171pt.
+Package pdftex.def Info: graphs/case1/recurrance~treatment_all.png  used on input line 174.
+(pdftex.def)             Requested size: 303.53708pt x 233.2114pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[3]
+[3 <./graphs/case1/recurrance~treatment_pyridoxine.png> <./graphs/case1/recurrance~treatment_thiotepa.png> <./graphs/case1/recurrance~treatment_placebo.png>]
+<graphs/case1/recurrance~death.png, id=33, 630.355pt x 421.575pt>
+File: graphs/case1/recurrance~death.png Graphic file (type png)
+<use graphs/case1/recurrance~death.png>
+Package pdftex.def Info: graphs/case1/recurrance~death.png  used on input line 186.
+(pdftex.def)             Requested size: 303.53708pt x 203.0034pt.
 
-[4 <./graphs/case1/recurrance~treatment_all.png>] (homework_5.aux)
+
+[4 <./graphs/case1/recurrance~treatment_all.png> <./graphs/case1/recurrance~death.png>]
+<graphs/case1/recurrance~tumor_count.png, id=39, 630.355pt x 421.575pt>
+File: graphs/case1/recurrance~tumor_count.png Graphic file (type png)
+<use graphs/case1/recurrance~tumor_count.png>
+Package pdftex.def Info: graphs/case1/recurrance~tumor_count.png  used on input line 245.
+(pdftex.def)             Requested size: 242.82503pt x 162.40015pt.
+<graphs/case1/recurrance~tumor_size.png, id=40, 630.355pt x 421.575pt>
+File: graphs/case1/recurrance~tumor_size.png Graphic file (type png)
+<use graphs/case1/recurrance~tumor_size.png>
+Package pdftex.def Info: graphs/case1/recurrance~tumor_size.png  used on input line 251.
+(pdftex.def)             Requested size: 242.82503pt x 162.40015pt.
+
+
+[5 <./graphs/case1/recurrance~tumor_count.png (PNG copy)> <./graphs/case1/recurrance~tumor_size.png (PNG copy)>] (homework_5.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7976 strings out of 473897
- 126084 string characters out of 5726461
- 529988 words of memory out of 5000000
- 30755 multiletter control sequences out of 15000+600000
- 565506 words of font info for 65 fonts, out of 8000000 for 9000
+ 8039 strings out of 473897
+ 128493 string characters out of 5726461
+ 533088 words of memory out of 5000000
+ 30816 multiletter control sequences out of 15000+600000
+ 566113 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,1032b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on homework_5.pdf (4 pages, 183794 bytes).
+ 57i,10n,65p,1032b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on homework_5.pdf (5 pages, 314779 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
