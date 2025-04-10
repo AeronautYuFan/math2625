@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1744206803.24276 "c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex" "homework_5.pdf" "homework_5" 1744206804.34295 2
+["pdflatex"] 1744211817.53423 "c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex" "homework_5.pdf" "homework_5" 1744211818.63297 0
   "C:/Users/Aeron/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743103692 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Aeron/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730427297 11948316 e042cc6d779bf190967185cc980c2ef9 ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -17,8 +17,10 @@
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1247596667 37912 07513ec114ac737ab54cea0152f4424b ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
+  "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1247596667 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
@@ -72,9 +74,9 @@
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1718356376 15033 652f156c2f139501300900190cae68c4 ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
   "C:/Users/Aeron/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex" 1744206800 6312 c3879013e3896e8cd85c99945a3b8991 ""
-  "homework_5.aux" 1744206804 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "homework_5.tex" 1744206800 6312 c3879013e3896e8cd85c99945a3b8991 ""
+  "c:/Users/Aeron/Documents/Repos/stats/math2625/math2625/hw5/homework_5.tex" 1744211816 6524 51651a90fdb8df5c787044f7510366b6 ""
+  "homework_5.aux" 1744211818 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "homework_5.tex" 1744211816 6524 51651a90fdb8df5c787044f7510366b6 ""
   (generated)
   "homework_5.aux"
   "homework_5.log"
