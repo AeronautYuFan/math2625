@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  10 APR 2025 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  10 APR 2025 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,27 +367,144 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count325
 \@lastruleclass=\count326
 \@thisrulewidth=\dimen197
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count327
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count328
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen198
+\Hy@linkcounter=\count329
+\Hy@pagecounter=\count330
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count331
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count332
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen199
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count333
+\Field@Width=\dimen256
+\Fld@charsize=\dimen257
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count334
+\c@Item=\count335
+\c@Hfootnote=\count336
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count337
+\c@bookmark@seq@number=\count338
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip71
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count327
+\l__color_backend_stack_int=\count339
 \l__pdf_internal_box=\box110
-) (homework_5.aux)
+) (homework_5.aux
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:recurrence_treatment_groups' multiply defined.
+
+)
 \openout1 = `homework_5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -425,16 +542,16 @@ LaTeX Font Info:    ... okay on input line 34.
 
 (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
-\scratchdimen=\dimen198
+\scratchcounter=\count340
+\scratchdimen=\dimen258
 \scratchbox=\box111
-\nofMPsegments=\count329
-\nofMParguments=\count330
+\nofMPsegments=\count341
+\nofMParguments=\count342
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count331
-\MPscratchDim=\dimen199
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen259
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
 \everyMPtoPDFconversion=\toks41
 ) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -443,29 +560,35 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
  (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 34.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 34.
+LaTeX Info: Redefining \celsius on input line 39.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 39.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 34.
-Package gensymb Info: Using \Omega for \ohm on input line 34.
+LaTeX Info: Redefining \ohm on input line 39.
+Package gensymb Info: Using \Omega for \ohm on input line 39.
 
 Package gensymb Warning: Not defining \micro.
 
-\c@lstlisting=\count334
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
-(C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+\c@lstlisting=\count346
+Package hyperref Info: Link coloring OFF on input line 39.
+(homework_5.out) (homework_5.out)
+\@outlinefile=\write3
+\openout3 = `homework_5.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -475,25 +598,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/Aeron/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
-<graphs/case1/recurrance~treatment_pyridoxine.png, id=19, 630.355pt x 421.575pt>
+
+[3]
+
+[4]
+<graphs/case1/recurrance~treatment_pyridoxine.png, id=42, 630.355pt x 421.575pt>
 File: graphs/case1/recurrance~treatment_pyridoxine.png Graphic file (type png)
 <use graphs/case1/recurrance~treatment_pyridoxine.png>
-Package pdftex.def Info: graphs/case1/recurrance~treatment_pyridoxine.png  used on input line 145.
+Package pdftex.def Info: graphs/case1/recurrance~treatment_pyridoxine.png  used on input line 219.
 (pdftex.def)             Requested size: 161.8885pt x 108.2689pt.
-<graphs/case1/recurrance~treatment_thiotepa.png, id=20, 630.355pt x 421.575pt>
+<graphs/case1/recurrance~treatment_thiotepa.png, id=43, 630.355pt x 421.575pt>
 File: graphs/case1/recurrance~treatment_thiotepa.png Graphic file (type png)
 <use graphs/case1/recurrance~treatment_thiotepa.png>
-Package pdftex.def Info: graphs/case1/recurrance~treatment_thiotepa.png  used on input line 151.
+Package pdftex.def Info: graphs/case1/recurrance~treatment_thiotepa.png  used on input line 225.
 (pdftex.def)             Requested size: 161.8885pt x 108.2689pt.
-<graphs/case1/recurrance~treatment_placebo.png, id=21, 630.355pt x 421.575pt>
+<graphs/case1/recurrance~treatment_placebo.png, id=44, 630.355pt x 421.575pt>
 File: graphs/case1/recurrance~treatment_placebo.png Graphic file (type png)
 <use graphs/case1/recurrance~treatment_placebo.png>
-Package pdftex.def Info: graphs/case1/recurrance~treatment_placebo.png  used on input line 157.
+Package pdftex.def Info: graphs/case1/recurrance~treatment_placebo.png  used on input line 231.
 (pdftex.def)             Requested size: 161.8885pt x 108.2689pt.
-<graphs/case1/recurrance~treatment_all.png, id=22, 548.71666pt x 421.575pt>
+<graphs/case1/recurrance~treatment_all.png, id=45, 548.71666pt x 421.575pt>
 File: graphs/case1/recurrance~treatment_all.png Graphic file (type png)
 <use graphs/case1/recurrance~treatment_all.png>
-Package pdftex.def Info: graphs/case1/recurrance~treatment_all.png  used on input line 174.
+Package pdftex.def Info: graphs/case1/recurrance~treatment_all.png  used on input line 248.
 (pdftex.def)             Requested size: 303.53708pt x 233.2114pt.
 
 
@@ -501,45 +628,147 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[3 <./graphs/case1/recurrance~treatment_pyridoxine.png> <./graphs/case1/recurrance~treatment_thiotepa.png> <./graphs/case1/recurrance~treatment_placebo.png>]
-<graphs/case1/recurrance~death.png, id=33, 630.355pt x 421.575pt>
+[5 <./graphs/case1/recurrance~treatment_pyridoxine.png> <./graphs/case1/recurrance~treatment_thiotepa.png> <./graphs/case1/recurrance~treatment_placebo.png>]
+<graphs/case1/recurrance~death.png, id=62, 630.355pt x 421.575pt>
 File: graphs/case1/recurrance~death.png Graphic file (type png)
 <use graphs/case1/recurrance~death.png>
-Package pdftex.def Info: graphs/case1/recurrance~death.png  used on input line 186.
+Package pdftex.def Info: graphs/case1/recurrance~death.png  used on input line 260.
 (pdftex.def)             Requested size: 303.53708pt x 203.0034pt.
 
 
-[4 <./graphs/case1/recurrance~treatment_all.png> <./graphs/case1/recurrance~death.png>]
-<graphs/case1/recurrance~tumor_count.png, id=39, 630.355pt x 421.575pt>
+[6 <./graphs/case1/recurrance~treatment_all.png> <./graphs/case1/recurrance~death.png>]
+<graphs/case1/recurrance~tumor_count.png, id=72, 630.355pt x 421.575pt>
 File: graphs/case1/recurrance~tumor_count.png Graphic file (type png)
 <use graphs/case1/recurrance~tumor_count.png>
-Package pdftex.def Info: graphs/case1/recurrance~tumor_count.png  used on input line 245.
+Package pdftex.def Info: graphs/case1/recurrance~tumor_count.png  used on input line 321.
 (pdftex.def)             Requested size: 242.82503pt x 162.40015pt.
-<graphs/case1/recurrance~tumor_size.png, id=40, 630.355pt x 421.575pt>
+<graphs/case1/recurrance~tumor_size.png, id=73, 630.355pt x 421.575pt>
 File: graphs/case1/recurrance~tumor_size.png Graphic file (type png)
 <use graphs/case1/recurrance~tumor_size.png>
-Package pdftex.def Info: graphs/case1/recurrance~tumor_size.png  used on input line 251.
+Package pdftex.def Info: graphs/case1/recurrance~tumor_size.png  used on input line 328.
 (pdftex.def)             Requested size: 242.82503pt x 162.40015pt.
 
 
-[5 <./graphs/case1/recurrance~tumor_count.png (PNG copy)> <./graphs/case1/recurrance~tumor_size.png (PNG copy)>] (homework_5.aux)
+[7 <./graphs/case1/recurrance~tumor_count.png (PNG copy)> <./graphs/case1/recurrance~tumor_size.png (PNG copy)>] (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+) (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 353.
+
+Overfull \hbox (64.1158pt too wide) in paragraph at lines 360--361
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 366.
+(C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 366.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 391.
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 391.
+
+
+[8]
+Overfull \hbox (16.11531pt too wide) in paragraph at lines 453--454
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+
+[9]
+
+[10]
+<graphs/case2/infection~treatment.png, id=243, 630.355pt x 421.575pt>
+File: graphs/case2/infection~treatment.png Graphic file (type png)
+<use graphs/case2/infection~treatment.png>
+Package pdftex.def Info: graphs/case2/infection~treatment.png  used on input line 538.
+(pdftex.def)             Requested size: 202.3529pt x 135.3313pt.
+
+
+[11 <./graphs/case2/infection~treatment.png>]
+<graphs/case2/infection~treatment_rIFN.png, id=255, 630.355pt x 421.575pt>
+File: graphs/case2/infection~treatment_rIFN.png Graphic file (type png)
+<use graphs/case2/infection~treatment_rIFN.png>
+Package pdftex.def Info: graphs/case2/infection~treatment_rIFN.png  used on input line 549.
+(pdftex.def)             Requested size: 242.82503pt x 162.40015pt.
+<graphs/case2/infection~treatment_placebo.png, id=256, 630.355pt x 421.575pt>
+File: graphs/case2/infection~treatment_placebo.png Graphic file (type png)
+<use graphs/case2/infection~treatment_placebo.png>
+Package pdftex.def Info: graphs/case2/infection~treatment_placebo.png  used on input line 555.
+(pdftex.def)             Requested size: 242.82503pt x 162.40015pt.
+<graphs/case2/2nd_infection.png, id=257, 630.355pt x 421.575pt>
+File: graphs/case2/2nd_infection.png Graphic file (type png)
+<use graphs/case2/2nd_infection.png>
+Package pdftex.def Info: graphs/case2/2nd_infection.png  used on input line 587.
+(pdftex.def)             Requested size: 303.53708pt x 203.0034pt.
+
+
+[12 <./graphs/case2/infection~treatment_rIFN.png (PNG copy)> <./graphs/case2/infection~treatment_placebo.png (PNG copy)> <./graphs/case2/2nd_infection.png>]
+<graphs/case2/infection~inheritance.png, id=266, 630.355pt x 421.575pt>
+File: graphs/case2/infection~inheritance.png Graphic file (type png)
+<use graphs/case2/infection~inheritance.png>
+Package pdftex.def Info: graphs/case2/infection~inheritance.png  used on input line 614.
+(pdftex.def)             Requested size: 242.82503pt x 162.40015pt.
+<graphs/case2/infection~prop_use.png, id=267, 630.355pt x 421.575pt>
+File: graphs/case2/infection~prop_use.png Graphic file (type png)
+<use graphs/case2/infection~prop_use.png>
+Package pdftex.def Info: graphs/case2/infection~prop_use.png  used on input line 620.
+(pdftex.def)             Requested size: 242.82503pt x 162.40015pt.
+
+
+[13 <./graphs/case2/infection~inheritance.png> <./graphs/case2/infection~prop_use.png (PNG copy)>]
+
+[14]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 663.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 679.
+ (C:\Users\Aeron\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
+File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+
+LaTeX Font Warning: Font shape `TS1/cmtt/bx/n' undefined
+(Font)              using `TS1/cmtt/m/n' instead
+(Font)              for symbol `textdollar' on input line 679.
+
+
+
+[15]
+
+[16] (homework_5.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `homework_5.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8039 strings out of 473897
- 128493 string characters out of 5726461
- 533088 words of memory out of 5000000
- 30816 multiletter control sequences out of 15000+600000
- 566113 words of font info for 67 fonts, out of 8000000 for 9000
+ 16467 strings out of 473897
+ 255702 string characters out of 5726461
+ 1250974 words of memory out of 5000000
+ 38810 multiletter control sequences out of 15000+600000
+ 568465 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,1032b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on homework_5.pdf (5 pages, 314779 bytes).
+ 75i,10n,79p,1032b,2642s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Aeron\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt0800.pk> <C:\Users\Aeron\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\Aeron\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\Aeron\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Aeron/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on homework_5.pdf (16 pages, 595594 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 310 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
